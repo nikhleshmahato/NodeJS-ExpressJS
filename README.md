@@ -1,7 +1,7 @@
 # NodeJS-ExpressJS
 These are my Express.js code files , created throughout the Learning and Development journey
-
-2. EJSIntegration  
+# 1 BASIC SERVER 
+# 2 EJSIntegration  (OLD)
 The index.ejs file should be inside "views" folder 
 app.js & "views" folder should be in same folder path
 
@@ -50,4 +50,63 @@ But .html is just static — no engine → no rendering.
 TIP : 
 res.render	Dynamic templates (EJS)
 res.sendFile	Static HTML file
+
+# 3 CLIENT-SERVER ARCHITECTURE (MODERN)
+or 
+1. Full-stack architecture
+2. SPA (Single Page Application) architecture
+3. API-driven architecture
+4. Jamstack (for some cases)
+
+REST APIs
+Authentication (JWT, Session)
+Middleware
+MVC pattern
+
+Don't use server-rendered HTML (like EJS) for modern projects, Instead use :
+React / Vue / Angular
+
+API based Communication
+
+separate Frontend & Backend
+
+Advanced Modern Setup
+1. SPA (Single Page Application)
+React app loads once
+Data fetched via APIs
+
+2. SSR (Server-Side Rendering)
+Done using Next.js
+Better SEO + performance
+
+3. Hybrid (Most modern)
+Next.js (frontend + backend)
+API routes + SSR + static pages
+
+Phase 2 
+Build REST APIs
+Learn MongoDB
+CRUD with API (no EJS)
+
+Phase 3
+Learn React
+Connect React → Express API
+
+Phase 4
+Learn Next.js (modern full-stack)
+
+What is a REST API ?
+REST API is a set of URLs / routes that respond with data using HTTP Method,
+
+like earlier responding data passed into a full ejs page,
+now responding direct data using HTTP methods.
+this concept is called REST API.
+
+
+
+
+
+
+
+
 
